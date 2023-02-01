@@ -22,10 +22,6 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
-	<properties>
-    		<sonar.organization>Niravbhatt2006</sonar.organization>
-  	</properties>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -204,7 +200,9 @@
  		            </execution>
  		        </executions>
  		</plugin>
-		
+	<properties>
+    	<sonar.organization>Niravbhatt2006</sonar.organization>
+  	</properties>
         </plugins>
     </build>
 </project>
